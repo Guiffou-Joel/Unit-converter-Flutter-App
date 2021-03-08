@@ -8,6 +8,7 @@ class MyApp extends StatefulWidget {
 }
 
 class MyAppState extends State<MyApp> {
+  double _numberFrom;
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -17,7 +18,7 @@ class MyAppState extends State<MyApp> {
           title: Text('Measures Converter'),
         ),
         body: Center(
-          child: Text('Measures Converter'),
+          child: TextField(),
         ),
       ),
     );
